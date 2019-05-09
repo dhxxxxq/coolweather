@@ -28,13 +28,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         intent_one.setOnClickListener(this);
         call.setOnClickListener(this);
 
+
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.intent_one:
-                Intent intent = new Intent(MainActivity.this, Main2Activity.class);
+                Intent intent = new Intent(MainActivity.this, Main10Activity.class);
                 startActivity(intent);
                 break;
             case R.id.call:
